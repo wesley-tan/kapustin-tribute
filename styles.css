@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Updated to a more modern font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9; /* Slightly lighter to reduce contrast */
+}
+
+#img-div {
+    text-align: center;
+    margin: 20px auto; /* Centered horizontally */
+    padding: 20px 0; /* Adds padding above and below the image */
+}
+
+.image {
+    max-width: 100%; /* Reduced to give more space around the image */
+    display: block;
+    height: auto;
+    margin: 0 auto; /* Centers the image within the div */
+    border-radius: 8px; /* Softens the corners of the image */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+main {
+    max-width: 900px; /* Increased width for more content space */
+    margin: 30px auto; /* Increased margin for better vertical spacing */
+    background: white;
+    padding: 30px; /* More padding for a better reading experience */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15); /* More pronounced shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0; /* Slightly more padding */
+    background-color: #444; /* Darker tone for better contrast */
+    color: #f9f9f9;
+}
+
+#tribute-link {
+    display: block;
+    margin-top: 15px; /* Slightly more margin */
+    color: #0056b3; /* A deeper blue for better legibility */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+#tribute-link:hover {
+    color: #002766; /* Darker blue on hover for interaction feedback */
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+#tribute-info, #achievements {
+    text-align: left; /* Ensures text is aligned left for readability */
+    padding: 10px 0; /* Padding for better segmentation */
+}
+
+figcaption {
+    font-style: italic; /* Styling for image captions */
+    color: #888; /* Lighter color for less emphasis */
+    margin-top: 5px; /* Space between image and caption */
+}
+
